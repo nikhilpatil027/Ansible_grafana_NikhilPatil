@@ -1,4 +1,4 @@
-- hosts: java_servers
+- hosts: all
   become: true
   roles:
     - { role: graphanainstall }
