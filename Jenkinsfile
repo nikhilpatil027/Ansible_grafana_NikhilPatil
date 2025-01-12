@@ -1,6 +1,6 @@
 pipeline
 { 
-    agent { label 'slave2' }
+    agent { label 'server1' }
     stages
     {
         stage("Execute grafana"){
